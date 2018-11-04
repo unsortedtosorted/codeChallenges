@@ -1,5 +1,4 @@
 class Solution(object):
-    
     num=0
     def depthSum(self, nestedList):
         """
