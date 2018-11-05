@@ -1,0 +1,16 @@
+class Solution(object):
+    r=[]
+    def postorder(self, root):
+        """
+        :type root: Node
+        :rtype: List[int]
+        """
+        self.r=[]
+        self.post(root)
+        return self.r
+    
+    def post(self,root):
+        if root:
+            for x in root.children:
+                self.post(x)
+            self.r.append(root.val)
