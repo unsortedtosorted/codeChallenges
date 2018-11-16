@@ -1,3 +1,8 @@
+"""
+Runs Faster than 100% online python submissions
+
+"""
+
 class RecentCounter(object):
     l=[]
     lastStart=0
