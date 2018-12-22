@@ -1,3 +1,7 @@
+"""
+
+Faster than 100% online submissions
+"""
 class Solution:
     def countSegments(self, s):
         """
