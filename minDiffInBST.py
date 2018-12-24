@@ -1,3 +1,7 @@
+"""
+Faster than 99% online submissions
+
+"""
 class Solution:
     def minDiffInBST(self, root):
         """
